@@ -339,28 +339,28 @@ const BLOG = {
     },
      {
      name: '万物不如你',
-      artist: 'Falcom Sound Team jdk',
+      artist: '张杰',
       url: 'http://m801.music.126.net/20250111191048/843f54e25a34a4a1eff1163521921e1b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/30041514780/91d6/b547/6920/3c2158cb7f86db923ce0ee788b5adade.mp3?vuutv=IKHpj4qv9QMeRYNY3KV1/Ci2Ym7npGqMLOZw3SleCWdwkjWxJa3HYXUntE9jJ6hDuBLjWLwmKeMVtzY3xtFHZl/YSyk4VpbvE1FX05XPMLJ8CbQeC8AMrANPVZMqVeHSlNV+pk9DBP0UleGvzlwRAOq30d9Jd91z02hKK/slJBS60BLPT/KrpIAEXo82OXHttcxcX/T3swQaN/9CqSZkf4R7yPCO1Dsml5TqhUzdUOFV069wFC67DRMtkPO0fHM7/7ZQtHqxKxUXg0Lu4zXerLfysdb2/vqxaK6Fkae6+J06vvfUgjIMyFvzKnFQmEoDljeEFsc/K9NYe9GZv+ScjGjsF3Qt0ltyKQRb6gFAkKqfBl5BxSJ8+PUJuGLuTD3Z',
       cover:
         'https://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg?param=300y300'
     },
      {
      name: '看月亮爬上来',
-      artist: 'Falcom Sound Team jdk',
+      artist: '张杰',
       url: 'http://m801.music.126.net/20250111191042/b354e693e7bc3341c07fd6d583676303/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481793059/d444/2363/90cd/bb101511921c017b3d44f519e22de659.mp3?vuutv=TUWmNElk3vCkZZoVAIOs5FQuePOzkAV/kpfgoDTXD7cAEfW36vRWJ2388LpACfe+LL39wJjLCnkozWjg+IOw4p9tkkBFgktHywuthhcPxjn46fk9r6PI8jTT8c9suFLnhWBrRM05Gj0nnlC57y7mdJuqLPs2flZ7etTDwOKI40+RCtP82ROjIemAGBJaJ4Z5dq9MGr/4Zrw4n6umRCZKFWp14XAqt6bJWgfSq6L8oxukmNfFWhwumtXBahSyuJ3gYBHFK+jwDN4VOIniRKoVPu69ohi3BAVtutHWFbrjTjlDldhW46K0Yzb+eDX1tVFCrzosodc7mVXqVsGC+t25TEHyJVLyezf/yf7sKrLoQXlE2/YXXGnyhboc3HQjgifD',
       cover:
         'https://p3.music.126.net/B8DGifXOR2rWhYy292hhQg==/109951168894618221.jpg?param=300y300'
     },
      {
      name: '我们都一样',
-      artist: 'Falcom Sound Team jdk',
+      artist: '张杰',
       url: 'http://m801.music.126.net/20250111191624/70151d8d5afad934f1174ae6dee235a9/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481798475/b411/0889/85cf/d756fa345a46c0d52fb241a9a61950c7.mp3?vuutv=b0n74X8HCGn33a5f5z6OMQmhIYEEEYBl9JBlY31Hbb6MANjVZsTlA98BaeUMsyMQVgn6Afv5RzkXUwTCFbKETr0XKvqScvyT/pbIMIGfzX1jsid+1ROSbBo4ju7sS5Y2R1qPrv7c1NU/BcMFEDTGHkun3lKKI+xsw1VSyscPFN6KEjPQ+O76jp5YKCwJZdJixgfVtIlOgKRwQPNibRvvVo5fx7vKV8Ycght8PQ/IMFg79jkuxpJrtrgcSu9ELrdhi+CPPcQ0gkF9yhoEzFU1QO35zuANmpmSTswzfb44A5QBO4B44r8agUCLae7QluAHlrldyDaOuMgnKiIHWoG5Syoou072aasynKNB9pc6is2i/hfrHvUXZQ5E4o+Sk7LS',
       cover:
         'https://p3.music.126.net/ixIs5kkukgNYMmeDsc35_g==/29686813955450.jpg?param=300y300'
     },
     {
       name: '明天过后',
-      artist: 'Falcom Sound Team jdk',
+      artist: '张杰',
       url: 'http://m701.music.126.net/20250111191051/d289d243635e20a37a2409fbeab58ead/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481688216/9d3d/df92/9a92/2bfc43fa8cd39d2a004c47674d12f1c2.mp3?vuutv=euba/A8DYmI9gBTLx5rC/78OwmWY8Vcc56majchc88pEyvG3y7DoLCNzLLWNbLB2C51Q7eF1vwj6Pra9Yblbme/u50L4S4evz45xWC0YVbOYWxxMaj3eRBGaY7X+RM1htoFPXy4CTXQYeHhsQ4ULInDkrtNGa/bUhslpdyiKTq6gwimz2sywesAE1kGh7yRI5BS4+CZQ11Mtjx5nlnwbPFQCjqwAZNaL7XcePmNKnlS4Kje4R+4FhXI9WwZ4NzfWLBIjQoYh6HiFzHsiSocsu3tE4yQ3uCzZLhtzd9inRKZQ1QxjWS0+tOtdib7FtuYRjZ/SrBP3Lv507yEmFY+fd+JfpB01Q4QC8qnNOo5PytYGYnwI+Nagc4/1rMAqqNL3',
       cover:
         'https://p3.music.126.net/ixIs5kkukgNYMmeDsc35_g==/29686813955450.jpg?param=300y300'
@@ -381,7 +381,7 @@ const BLOG = {
     },
      {
       name: '云还在唱歌',
-      artist: 'Falcom Sound Team jdk',
+      artist: '张杰',
       url: 'http://m701.music.126.net/20250111184028/667056fd8bce892a24b5bfc8bbe3ddaf/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14047864335/fb6e/6d5c/eba0/2e6299de11158c892a6183bb149d2d67.mp3?vuutv=s4Odg7TpMjOBGw3ti/+wWL06vnHJPQsPDOa5HwHUDL+rmlm3Ihi0xMg8yxYrVYb2YjcInLgEnxHUsia81E0jB/KQ7FUw1ZMHXRbDLfbB+VGYPfbre3cProhWUCof9/8DUrKsO4VtXZ3tqB3/tqPtKrOlE5RfA0nv7W8RGVX6Rc+dwat8H+Sm+cYfGSn5j85mI+h/1rnEAxV47ZnXBBpx+Q2ryfA79nxT8ZTF7l2p/TjBc73+EzX+t+SnBIbqn/xoMyJeGszmAM47S7otQR43Rp0I05DfD3bBFXL6orATeBDVIreqWCEFVDpqH0wcVXRYt0jB/NRxKtBHpm0jyFHZGh8/BW8k8G1sKpl5YSSHfDRgBeCxrrzgcb+LHfqYrNEE',
       cover:
         'https://p3.music.126.net/CtZG5qxH9LPgGV_PThqSBg==/109951167322582296.jpg?param=300y300'
