@@ -367,14 +367,14 @@ const BLOG = {
     },
      {
       name: '遇见(Live)',
-      artist: 'Falcom Sound Team jdk',
+      artist: '孙燕姿',
       url: 'http://m701.music.126.net/20250111184738/aafec6e2d6900cdb0dc0ddabaa865d17/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096548668/3c57/5806/d5bc/85cef6be8791125e367b438266e2a855.mp3?vuutv=c9lHG9qCc0OUPpfCN/j5iF6fFUcjyK+A8ZzWNstQzuodmhLduNqCYoBv7Fm0DTpWpuCqtbRNVXSdRYkEdUqmoArD4GkbzMJtN+Q2opF62w7CmahIfftI4rG2QVV0vjw6655Go7gjEdvns8DxL1kd7XBkEYEUEBfiDFuZJkMOugtv84O56Yl2VjBqNwyeuNt4adNHQSv69RCRtzqDMsIY6whDQA00/iLdyH6tY3JUKEg3Ch98sguVAQNBaFVycAsfUAnb1xJ9B1rp41AClEIIjTjT3lApya/hq8dtjpTh53jZZkO+LxvXF/hZze+dTMySZV0odHrUK0gG7Mdr5xMCRC2edbLu2EqiwzmNLFAxNonWiIFoXEpeMEg2+IHjqhuL',
       cover:
         'https://p3.music.126.net/sF67FVEvm-TpP_-TA9I5vA==/3298534890576644.jpg?param=300y300'
     },
      {
       name: '叹云兮',
-      artist: 'Falcom Sound Team jdk',
+      artist: '鞠婧祎',
       url: 'http://m10.music.126.net/20250111184438/53064571fae54be054fe785cf3017c15/ymusic/d9eb/6b12/7720/7892aec1dd9ab8b822e2d9a2087bec64.mp3?vuutv=o6xJg/nxKRQrxwfp9RXt262Mqbk3VcqzP9E09LqV8eBQPvUasUXiuKCwwpPQ3szpJh4qWZn9kTRHC/8pylX5985ByMvCABb+7Bg77LAfcix/kZgdG4iCawpkxz9u7boiW1JtwK0VHocG3ohrSB2inrcsHA9DHCas/9A8UQ9od0/cPkHdeWiX22aj2U3PVujqo8rXov/ujsDXNxyUyuLHX35zjLnWpxyLxcMCmy8zs2xdr8Mwlx9cXkFGHowY9s9cHqkkg8r+bCaOOZKyPEhXnO0Da2Lez4DxYjuFpZ7MpUPVHg6ooVniKxGVD0uyungEJqXgpfP1TDlr+N37OrsnsgibqBw91jEWC+oSA87WtOxPABSQxgUFwsVJvfld4KD8',
       cover:
         'https://p3.music.126.net/80ycl8oJz6UBRsGl7MNRUg==/109951170318437851.jpg?param=300y300'
