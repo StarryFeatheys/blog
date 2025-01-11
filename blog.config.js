@@ -366,6 +366,7 @@ const BLOG = {
       name: '千千万万',
       artist: 'Falcom Sound Team jdk',
       url: 'http://m701.music.126.net/20250111190539/534ff2a72a28f888b6c860bb9471ac6c/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096503609/34d8/844c/a2ca/9204296509e93d74988907b62a779590.mp3?vuutv=1uROtx1cFrKP6MLiyNTHP+4HrxzpdmvWTTph0pDMGmEXXxdbVZRlcR4QzlIBEZfC1MWN7c1zvMVi5wOMPYSwiRA9u122RNRGFcnon3G1cw8Ztn4hMdvHNmZSN0/vHBtWQ3t3kTwVzSyzmw+cdr6yqTI1VBg/D0B4uxzs1rOZWVPUzavCCO6T6WoGpDc2PKNgSxBinindqHOyi4+e8hqt13//yhUG4fx8OgkTh6RDk1uIgYn7jWBYeMtqIIPKpb88JFpoO8Riothz1qzh3DdnjL0pEH07XLop6G/Avnc8vHlmolCXvWXp/gRxFMcemJWxZMNtgXE92n/5kzIOKC/Gk4QrB3U7x5egS0Rf3WLapfHkFddPdFCDO+WNBtWU4Efd:
+      cover:
         'http://p1.music.126.net/xdegZlt9xmez_MxuH_PzXA==/109951165623999837.jpg?param=300y300'
     },
      {
