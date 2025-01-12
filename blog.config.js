@@ -323,47 +323,47 @@ const BLOG = {
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
-     {
-      name: '遇见(Live)',
+    {
+      name: '遇见(Live',
       artist: '孙燕姿',
-      url: 'http://vodkgeyttp8.vod.126.net/cloudmusic/NDY4MDU0Nzky/a1205e9440115ffb1f833bcc325955a5/454e8b2e9366e52a92a6c21a5ec37a88.mp4?wsSecret=0a5f0fe54b1c0444dc34b612c2fa384e&wsTime=1736681452:
-        'https://p3.music.126.net/sF67FVEvm-TpP_-TA9I5vA==/3298534890576644.jpg?param=300y300'
+      url: 'http://vodkgeyttp8.vod.126.net/cloudmusic/NDY4MDU0Nzky/a1205e9440115ffb1f833bcc325955a5/454e8b2e9366e52a92a6c21a5ec37a88.mp4?wsSecret=0a5f0fe54b1c0444dc34b612c2fa384e&wsTime=1736681452',
+      cover: 'https://p3.music.126.net/sF67FVEvm-TpP_-TA9I5vA==/3298534890576644.jpg?param=300y300'
     },
     {
       name: '云还在唱歌',
       artist: '张杰',
-      url: 'http://m801.music.126.net/20250112200708/6108c23dba59eb54da05f3c3eb659897/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/14047864196/8ba2/2462/ab32/542fd97610c3048f99cdf40dbd4ada36.m4a?vuutv=ZTiq0BsTi1OcneDHHlrCk4fNb7+2h5yblcqidGONF8HwQAphQaxvNeReTJ8mr28vJtSHmFwbKATnU6AQO3aZdp2ZIggVYsNthUidluBmZfnMjrPKHBGpkc3rhqq3WWxLPCtL0/8CCmjslNQ7TuLs59n4GO9FacDLzc3B+pBc4GwgxsY4wLiQn+b9RBCGbrfIs5Auwi1rqRdJF/OKfkC9E5nFtFQycSP5f/CDl2thGh0jz6edpBHZ1j/jRaN7IsxToEh9K9ISDPlkMRI+foajsnTBm0cRZRxLRJRz3zVRDSQH4+dRysiY0sw1xjWA6/eL1latG65G/W1g/V+TfV7xdPb+i3jmBcJBWnwbloFKMYN/q2j6NYoBHISJyTJLcW9c:
-        'https://p3.music.126.net/CtZG5qxH9LPgGV_PThqSBg==/109951167322582296.jpg?param=300y300'
+      url: 'http://m801.music.126.net/20250112200708/6108c23dba59eb54da05f3c3eb659897/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/14047864196/8ba2/2462/ab32/542fd97610c3048f99cdf40dbd4ada36.m4a?vuutv=ZTiq0BsTi1OcneDHHlrCk4fNb7+2h5yblcqidGONF8HwQAphQaxvNeReTJ8mr28vJtSHmFwbKATnU6AQO3aZdp2ZIggVYsNthUidluBmZfnMjrPKHBGpkc3rhqq3WWxLPCtL0/8CCmjslNQ7TuLs59n4GO9FacDLzc3B+pBc4GwgxsY4wLiQn+b9RBCGbrfIs5Auwi1rqRdJF/OKfkC9E5nFtFQycSP5f/CDl2thGh0jz6edpBHZ1j/jRaN7IsxToEh9K9ISDPlkMRI+foajsnTBm0cRZRxLRJRz3zVRDSQH4+dRysiY0sw1xjWA6/eL1latG65G/W1g/V+TfV7xdPb+i3jmBcJBWnwbloFKMYN/q2j6NYoBHISJyTJLcW9c',
+      cover: 'https://p3.music.126.net/CtZG5qxH9LPgGV_PThqSBg==/109951167322582296.jpg?param=300y300'
     },
-     {
-     name: '我们都一样',
+    {
+      name: '我们都一样',
       artist: '张杰',
-      url: 'http://m701.music.126.net/20250112200348/5460be1ab5f67e032978c9d95457a4e6/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28481796129/395f/74dd/9e19/cee92c399cf248a85c37f66d346f28e7.m4a?vuutv=rLSdrHwox7LnbB/AyjvKK8jhljjDWnM5gIpbBFlsjAgcGlge9oUSCeEhJc49Ea89M/k+ZCXeyjYAzXSCMsd+NJecdwN0AtGYZ+1mF0wa+M9h84tZcEKkaRpcHUs6RQaRTFfs+xvzh0ckzmY3QO0He2r2B9C4246DCO83qzBX+G0dPgDRJ3yrR6pji6TPPdcNe1LIoVipzktGIo3ZlRUgc3ZmfFYFMnMmlFzwFrRH2xrkX/7lhniTdhmbfxe3lJwqjFBH+VAZ9PDygS+QpkCTL4ZcH+GOxbf/84g2heLqC3ixZDHLvKNoBDRf7ZVP8pSwQUp7o3yWvhlD0xdmr0Za3EuIEsiAqY4/TljeGttt1a8afGxCrDfB+s4UucYkg54o:
-        'https://p3.music.126.net/ixIs5kkukgNYMmeDsc35_g==/29686813955450.jpg?param=300y300'
+      url: 'http://m701.music.126.net/20250112200348/5460be1ab5f67e032978c9d95457a4e6/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28481796129/395f/74dd/9e19/cee92c399cf248a85c37f66d346f28e7.m4a?vuutv=rLSdrHwox7LnbB/AyjvKK8jhljjDWnM5gIpbBFlsjAgcGlge9oUSCeEhJc49Ea89M/k+ZCXeyjYAzXSCMsd+NJecdwN0AtGYZ+1mF0wa+M9h84tZcEKkaRpcHUs6RQaRTFfs+xvzh0ckzmY3QO0He2r2B9C4246DCO83qzBX+G0dPgDRJ3yrR6pji6TPPdcNe1LIoVipzktGIo3ZlRUgc3ZmfFYFMnMmlFzwFrRH2xrkX/7lhniTdhmbfxe3lJwqjFBH+VAZ9PDygS+QpkCTL4ZcH+GOxbf/84g2heLqC3ixZDHLvKNoBDRf7ZVP8pSwQUp7o3yWvhlD0xdmr0Za3EuIEsiAqY4/TljeGttt1a8afGxCrDfB+s4UucYkg54o',
+      cover: 'https://p3.music.126.net/ixIs5kkukgNYMmeDsc35_g==/29686813955450.jpg?param=300y300'
     },
     {
       name: '明天过后',
       artist: '张杰',
-      url: 'http://m801.music.126.net/20250112200519/2c6fd9bce366efaffc6624cb81cfdaf9/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28481688644/150b/0334/2a60/690e587d898006bffc147c57f6fcf47f.m4a?vuutv=vmdjFkCqtw1JvtkBR8umYP38pREbzSl6u2JVK6uIwz2lW1Gq8JrNZGRVuEDQ66VmW8zeyfsypcySGJiZEYbJ80EjJ+oT3R1/jsONr3G7OnvPi4PFfTMps0MdADKJ7dsrb7EHxtLITKbMA/zgGN5vyYGFRGdmDx4jEXrwnAR05OWwYRmrBKLH1mrdkfZVDcth7UHd9hnb5WaR93CCiZFh/gQ5v2DVHuZ4WLnID58WUcJl1R4Je9LWaiPB57BUXfiXBVblrS320c7Lsf1qG9iL/MSQMM7cC0lv2Kvk90ituJW5Fq5KwyyUDi61sV0KlA0/ZPQiwOmYz2EHJzPgCkT+DTV3zDqonIjGNH1NtwqNT4OJyHfB5E7VZ0PFVtMjeww1:
-        'https://p3.music.126.net/ixIs5kkukgNYMmeDsc35_g==/29686813955450.jpg?param=300y300'
+      url: 'http://m801.music.126.net/20250112200519/2c6fd9bce366efaffc6624cb81cfdaf9/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28481688644/150b/0334/2a60/690e587d898006bffc147c57f6fcf47f.m4a?vuutv=vmdjFkCqtw1JvtkBR8umYP38pREbzSl6u2JVK6uIwz2lW1Gq8JrNZGRVuEDQ66VmW8zeyfsypcySGJiZEYbJ80EjJ+oT3R1/jsONr3G7OnvPi4PFfTMps0MdADKJ7dsrb7EHxtLITKbMA/zgGN5vyYGFRGdmDx4jEXrwnAR05OWwYRmrBKLH1mrdkfZVDcth7UHd9hnb5WaR93CCiZFh/gQ5v2DVHuZ4WLnID58WUcJl1R4Je9LWaiPB57BUXfiXBVblrS320c7Lsf1qG9iL/MSQMM7cC0lv2Kvk90ituJW5Fq5KwyyUDi61sV0KlA0/ZPQiwOmYz2EHJzPgCkT+DTV3zDqonIjGNH1NtwqNT4OJyHfB5E7VZ0PFVtMjeww1',
+      cover: 'https://p3.music.126.net/ixIs5kkukgNYMmeDsc35_g==/29686813955450.jpg?param=300y300'
     },
-     {
+    {
       name: '叹云兮',
       artist: '鞠婧祎',
-      url: 'http://m701.music.126.net/20250112200611/030dcfb41a7dde4cf7c1a6fe8a6897dc/jdyyaac/5359/0452/035a/d3b39acf0638e25fab6040d118f3ca41.m4a?vuutv=bDwtuA/+VO5TNVssbfKQOphsPINFG4mVJlEUyK5y0+X23y3awHgYh5i3crMcOrTJb5QnCQagn46BWl2wc1pTgjvQamiR22HA3HPB+mYOAeb7Qo+66zTUPA/CNH8XZ4DV1uDDcpITkvjyMIxNnIg9IXFn0m1lLLBFOZsLLdsieHPqMgIyqbtaHjC3acI6gL85JqTzIu1Aje3/I/jbvYTpLA40+RQabL4aiAvgQ5XGgJrLL8oW13jrKe4N9Bx+QJ0D2FndRDfnpgo18G0ECe4PRjUWwUXj62KnG7v3Phywy11epAUbdaEgRxTA8YjlQ/9AoHZQojVhwK+qqMjC2M7VAzDeDXGETRwCTRXVjvpIlHZezul7ME/GZibgpkXcVyWH:
-        'https://p3.music.126.net/80ycl8oJz6UBRsGl7MNRUg==/109951170318437851.jpg?param=300y300'
+      url: 'http://m701.music.126.net/20250112200611/030dcfb41a7dde4cf7c1a6fe8a6897dc/jdyyaac/5359/0452/035a/d3b39acf0638e25fab6040d118f3ca41.m4a?vuutv=bDwtuA/+VO5TNVssbfKQOphsPINFG4mVJlEUyK5y0+X23y3awHgYh5i3crMcOrTJb5QnCQagn46BWl2wc1pTgjvQamiR22HA3HPB+mYOAeb7Qo+66zTUPA/CNH8XZ4DV1uDDcpITkvjyMIxNnIg9IXFn0m1lLLBFOZsLLdsieHPqMgIyqbtaHjC3acI6gL85JqTzIu1Aje3/I/jbvYTpLA40+RQabL4aiAvgQ5XGgJrLL8oW13jrKe4N9Bx+QJ0D2FndRDfnpgo18G0ECe4PRjUWwUXj62KnG7v3Phywy11epAUbdaEgRxTA8YjlQ/9AoHZQojVhwK+qqMjC2M7VAzDeDXGETRwCTRXVjvpIlHZezul7ME/GZibgpkXcVyWH',
+      cover: 'https://p3.music.126.net/80ycl8oJz6UBRsGl7MNRUg==/109951170318437851.jpg?param=300y300'
     },
-     {
-     name: '万物不如你',
+    {
+      name: '万物不如你',
       artist: '张杰',
-      url: 'http://m801.music.126.net/20250112195902/5afa8d80f4aac2e495f5d088dd81c038/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/30041514806/64bb/a0ca/8ca9/a4050e363d359349148911a807119049.m4a?vuutv=ZAdK2mQgctmXhT0maOt/ek6tID1EdFLSQxV9x1M0+vBiNHsH390ucimVFbMITLFuoyu5bhFzrN9+3flWbnhrdfTEjrhoaijvhDlgb9TEwLjt2BFwV8BPZ+wGmkMML0eulclqtfaUvFNHgKLN47z5Veg+JonoK7/GWgZ3vEkr+z64mXfie+2PYmqcqrOZ6OJbFkp9DAtiMirz66cchhMRoe+DjwMurlelxlVSX1W1/MFkJ0nvnY3iXpT0Mn52wpFrbPa5AaVvFOZhaikjog8MtYYG1mtNFe+rVaMot/BAjljNixU/A3rImndckhaBGhtsVqAHnmzwJQFv/xDUMVnr8JJavrV7iPIatojfAa4LIpgwydj8AiyEFzzd25eF3HbA:
-        'https://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg?param=300y300'
+      url: 'http://m801.music.126.net/20250112195902/5afa8d80f4aac2e495f5d088dd81c038/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/30041514806/64bb/a0ca/8ca9/a4050e363d359349148911a807119049.m4a?vuutv=ZAdK2mQgctmXhT0maOt/ek6tID1EdFLSQxV9x1M0+vBiNHsH390ucimVFbMITLFuoyu5bhFzrN9+3flWbnhrdfTEjrhoaijvhDlgb9TEwLjt2BFwV8BPZ+wGmkMML0eulclqtfaUvFNHgKLN47z5Veg+JonoK7/GWgZ3vEkr+z64mXfie+2PYmqcqrOZ6OJbFkp9DAtiMirz66cchhMRoe+DjwMurlelxlVSX1W1/MFkJ0nvnY3iXpT0Mn52wpFrbPa5AaVvFOZhaikjog8MtYYG1mtNFe+rVaMot/BAjljNixU/A3rImndckhaBGhtsVqAHnmzwJQFv/xDUMVnr8JJavrV7iPIatojfAa4LIpgwydj8AiyEFzzd25eF3HbA',
+      cover: 'https://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg?param=300y300'
     },
-     {
-     name: '看月亮爬上来',
+    {
+      name: '月亮爬上来',
       artist: '张杰',
-      url: 'http://m801.music.126.net/20250112200021/afc076d8749bd2edb7b2e14565d3ab00/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28481791708/3861/e1ad/624c/f0549e4db0b42854be8e63b04056ced5.m4a?vuutv=iIToiC4UbbWxdpCPbqVwUfTfTYK0TPawZjO4rWhJowOPd/tcva8T1D07Qp1lAYSHE0pkoy+9qIuoP6CUvbgTdYbxacSg42SUqGvaAQkP74lhBzGP4Re5eeE4h5I01hfpWUj99LCxMgXtXB7ih4jFnRtYpdazMzp1LpbH8ZM/PJmTYEp3utVdj7n+fsDZBPRwRs7N3V/AyWZAOME1H13aP1uEx1FaZDP20OzKYecKKhloqM/ETVB13DRSLzpEWkSSCCUntrssq2nXfRJdch2jAFdTqnYVyCLutFUUKDchlfOgX7JBQd4bdOwwxaV3rtgZRArwzPwRODOuYjrmEMzsqNFs5Z8qh3EhLS7rc7aZ7iCMd8xUwJinVstMS44csNky:
-        'https://p3.music.126.net/B8DGifXOR2rWhYy292hhQg==/109951168894618221.jpg?param=300y300'
+      url: 'http://m801.music.126.net/20250112200021/afc076d8749bd2edb7b2e14565d3ab00/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28481791708/3861/e1ad/624c/f0549e4db0b42854be8e63b04056ced5.m4a?vuutv=iIToiC4UbbWxdpCPbqVwUfTfTYK0TPawZjO4rWhJowOPd/tcva8T1D07Qp1lAYSHE0pkoy+9qIuoP6CUvbgTdYbxacSg42SUqGvaAQkP74lhBzGP4Re5eeE4h5I01hfpWUj99LCxMgXtXB7ih4jFnRtYpdazMzp1LpbH8ZM/PJmTYEp3utVdj7n+fsDZBPRwRs7N3V/AyWZAOME1H13aP1uEx1FaZDP20OzKYecKKhloqM/ETVB13DRSLzpEWkSSCCUntrssq2nXfRJdch2jAFdTqnYVyCLutFUUKDchlfOgX7JBQd4bdOwwxaV3rtgZRArwzPwRODOuYjrmEMzsqNFs5Z8qh3EhLS7rc7aZ7iCMd8xUwJinVstMS44csNky',
+      cover: 'https://p3.music.126.net/B8DGifXOR2rWhYy292hhQg==/109951168894618221.jpg?param=300y300'
     },
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
