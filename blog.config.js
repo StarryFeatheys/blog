@@ -332,7 +332,7 @@ const BLOG = {
     {
       name: '云还在唱歌',
       artist: '张杰',
-      url: 'http://m801.music.126.net/20250112200708/6108c23dba59eb54da05f3c3eb659897/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/14047864196/8ba2/2462/ab32/542fd97610c3048f99cdf40dbd4ada36.m4a?vuutv=ZTiq0BsTi1OcneDHHlrCk4fNb7+2h5yblcqidGONF8HwQAphQaxvNeReTJ8mr28vJtSHmFwbKATnU6AQO3aZdp2ZIggVYsNthUidluBmZfnMjrPKHBGpkc3rhqq3WWxLPCtL0/8CCmjslNQ7TuLs59n4GO9FacDLzc3B+pBc4GwgxsY4wLiQn+b9RBCGbrfIs5Auwi1rqRdJF/OKfkC9E5nFtFQycSP5f/CDl2thGh0jz6edpBHZ1j/jRaN7IsxToEh9K9ISDPlkMRI+foajsnTBm0cRZRxLRJRz3zVRDSQH4+dRysiY0sw1xjWA6/eL1latG65G/W1g/V+TfV7xdPb+i3jmBcJBWnwbloFKMYN/q2j6NYoBHISJyTJLcW9c',
+      url: 'https://m801.music.126.net/20250112204742/6153c9bbfbe94649b15b5bc99aeb1db8/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/14047864196/8ba2/2462/ab32/542fd97610c3048f99cdf40dbd4ada36.m4a?vuutv=UZtZxgl8pUMIdDgU+cc1sh/WEYIjM/vjH9zvk0IJUogsqghbPHRJPP2z5UvAfbsitxNrZPk9Xz/K66378ioYgHNAE5D12yhNizBuVqHsPlchvA867djMlo8PqhTz/6idikuKkr+G08caaMSRKcGrRkqDA3oxm4li9bN+6hZ1NbMIR+m55SSm6dLqkg6khwiy8k1VTM3TWVLQrRQFviQuD07mGstcmbKSPakV+5YDp1J7IczSGSnThnfyIVGX0EKzakT03kAumrgHR6iGoMC6ljIfzRrGdvvqhwk1mmmVSsuM6mjam/HzUj/fp1mErojxwJGR+NGR1msR6xav7WYQl2Zdq9ed7z6qFZcrMMIL87qTwxXJh9e+1cjRJCxntNKD',
       cover: 'https://p3.music.126.net/CtZG5qxH9LPgGV_PThqSBg==/109951167322582296.jpg?param=300y300'
     },
     {
