@@ -10,7 +10,7 @@ const BLOG = {
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // 是否显示切换主题按钮
   LANG: process.env.NEXT_PUBLIC_LANG || 'zh-CN', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_PUBLIC_SINCE || 2024, // e.g if leave this empty, current year will be used.
-  APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'auto', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
+  APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'dark', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
 
   TAG_SORT_BY_COUNT: true, // 标签是否按照文章数量倒序排列，文章多的标签排在前。
@@ -323,68 +323,47 @@ const BLOG = {
   MUSIC_PLAYER_ORDER: process.env.NEXT_PUBLIC_MUSIC_PLAYER_ORDER || 'list', // 默认播放方式，顺序 list，随机 random
   MUSIC_PLAYER_AUDIO_LIST: [
     // 示例音乐列表。除了以下配置外，还可配置歌词，具体配置项看此文档 https://aplayer.js.org/#/zh-Hans/
-    {
-      name: '风を共に舞う気持ち',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731419.mp3',
-      cover:
-        'https://p2.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
-    },
-    {
-      name: '王都グランセル',
-      artist: 'Falcom Sound Team jdk',
-      url: 'https://music.163.com/song/media/outer/url?id=731355.mp3',
-      cover:
-        'https://p1.music.126.net/kn6ugISTonvqJh3LHLaPtQ==/599233837187278.jpg'
-    },
      {
-     name: '万物不如你',
-      artist: '张杰',
-      url: 'http://m801.music.126.net/20250111191048/843f54e25a34a4a1eff1163521921e1b/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/30041514780/91d6/b547/6920/3c2158cb7f86db923ce0ee788b5adade.mp3?vuutv=IKHpj4qv9QMeRYNY3KV1/Ci2Ym7npGqMLOZw3SleCWdwkjWxJa3HYXUntE9jJ6hDuBLjWLwmKeMVtzY3xtFHZl/YSyk4VpbvE1FX05XPMLJ8CbQeC8AMrANPVZMqVeHSlNV+pk9DBP0UleGvzlwRAOq30d9Jd91z02hKK/slJBS60BLPT/KrpIAEXo82OXHttcxcX/T3swQaN/9CqSZkf4R7yPCO1Dsml5TqhUzdUOFV069wFC67DRMtkPO0fHM7/7ZQtHqxKxUXg0Lu4zXerLfysdb2/vqxaK6Fkae6+J06vvfUgjIMyFvzKnFQmEoDljeEFsc/K9NYe9GZv+ScjGjsF3Qt0ltyKQRb6gFAkKqfBl5BxSJ8+PUJuGLuTD3Z',
-      cover:
-        'https://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg?param=300y300'
+      name: '遇见(Live)',
+      artist: '孙燕姿',
+      url: 'http://vodkgeyttp8.vod.126.net/cloudmusic/NDY4MDU0Nzky/a1205e9440115ffb1f833bcc325955a5/454e8b2e9366e52a92a6c21a5ec37a88.mp4?wsSecret=0a5f0fe54b1c0444dc34b612c2fa384e&wsTime=1736681452:
+        'https://p3.music.126.net/sF67FVEvm-TpP_-TA9I5vA==/3298534890576644.jpg?param=300y300'
     },
-     {
-     name: '看月亮爬上来',
+    {
+      name: '云还在唱歌',
       artist: '张杰',
-      url: 'http://m801.music.126.net/20250111191042/b354e693e7bc3341c07fd6d583676303/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481793059/d444/2363/90cd/bb101511921c017b3d44f519e22de659.mp3?vuutv=TUWmNElk3vCkZZoVAIOs5FQuePOzkAV/kpfgoDTXD7cAEfW36vRWJ2388LpACfe+LL39wJjLCnkozWjg+IOw4p9tkkBFgktHywuthhcPxjn46fk9r6PI8jTT8c9suFLnhWBrRM05Gj0nnlC57y7mdJuqLPs2flZ7etTDwOKI40+RCtP82ROjIemAGBJaJ4Z5dq9MGr/4Zrw4n6umRCZKFWp14XAqt6bJWgfSq6L8oxukmNfFWhwumtXBahSyuJ3gYBHFK+jwDN4VOIniRKoVPu69ohi3BAVtutHWFbrjTjlDldhW46K0Yzb+eDX1tVFCrzosodc7mVXqVsGC+t25TEHyJVLyezf/yf7sKrLoQXlE2/YXXGnyhboc3HQjgifD',
-      cover:
-        'https://p3.music.126.net/B8DGifXOR2rWhYy292hhQg==/109951168894618221.jpg?param=300y300'
+      url: 'http://m801.music.126.net/20250112200708/6108c23dba59eb54da05f3c3eb659897/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/14047864196/8ba2/2462/ab32/542fd97610c3048f99cdf40dbd4ada36.m4a?vuutv=ZTiq0BsTi1OcneDHHlrCk4fNb7+2h5yblcqidGONF8HwQAphQaxvNeReTJ8mr28vJtSHmFwbKATnU6AQO3aZdp2ZIggVYsNthUidluBmZfnMjrPKHBGpkc3rhqq3WWxLPCtL0/8CCmjslNQ7TuLs59n4GO9FacDLzc3B+pBc4GwgxsY4wLiQn+b9RBCGbrfIs5Auwi1rqRdJF/OKfkC9E5nFtFQycSP5f/CDl2thGh0jz6edpBHZ1j/jRaN7IsxToEh9K9ISDPlkMRI+foajsnTBm0cRZRxLRJRz3zVRDSQH4+dRysiY0sw1xjWA6/eL1latG65G/W1g/V+TfV7xdPb+i3jmBcJBWnwbloFKMYN/q2j6NYoBHISJyTJLcW9c:
+        'https://p3.music.126.net/CtZG5qxH9LPgGV_PThqSBg==/109951167322582296.jpg?param=300y300'
     },
      {
      name: '我们都一样',
       artist: '张杰',
-      url: 'http://m801.music.126.net/20250111191624/70151d8d5afad934f1174ae6dee235a9/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481798475/b411/0889/85cf/d756fa345a46c0d52fb241a9a61950c7.mp3?vuutv=b0n74X8HCGn33a5f5z6OMQmhIYEEEYBl9JBlY31Hbb6MANjVZsTlA98BaeUMsyMQVgn6Afv5RzkXUwTCFbKETr0XKvqScvyT/pbIMIGfzX1jsid+1ROSbBo4ju7sS5Y2R1qPrv7c1NU/BcMFEDTGHkun3lKKI+xsw1VSyscPFN6KEjPQ+O76jp5YKCwJZdJixgfVtIlOgKRwQPNibRvvVo5fx7vKV8Ycght8PQ/IMFg79jkuxpJrtrgcSu9ELrdhi+CPPcQ0gkF9yhoEzFU1QO35zuANmpmSTswzfb44A5QBO4B44r8agUCLae7QluAHlrldyDaOuMgnKiIHWoG5Syoou072aasynKNB9pc6is2i/hfrHvUXZQ5E4o+Sk7LS',
-      cover:
+      url: 'http://m701.music.126.net/20250112200348/5460be1ab5f67e032978c9d95457a4e6/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28481796129/395f/74dd/9e19/cee92c399cf248a85c37f66d346f28e7.m4a?vuutv=rLSdrHwox7LnbB/AyjvKK8jhljjDWnM5gIpbBFlsjAgcGlge9oUSCeEhJc49Ea89M/k+ZCXeyjYAzXSCMsd+NJecdwN0AtGYZ+1mF0wa+M9h84tZcEKkaRpcHUs6RQaRTFfs+xvzh0ckzmY3QO0He2r2B9C4246DCO83qzBX+G0dPgDRJ3yrR6pji6TPPdcNe1LIoVipzktGIo3ZlRUgc3ZmfFYFMnMmlFzwFrRH2xrkX/7lhniTdhmbfxe3lJwqjFBH+VAZ9PDygS+QpkCTL4ZcH+GOxbf/84g2heLqC3ixZDHLvKNoBDRf7ZVP8pSwQUp7o3yWvhlD0xdmr0Za3EuIEsiAqY4/TljeGttt1a8afGxCrDfB+s4UucYkg54o:
         'https://p3.music.126.net/ixIs5kkukgNYMmeDsc35_g==/29686813955450.jpg?param=300y300'
     },
     {
       name: '明天过后',
       artist: '张杰',
-      url: 'http://m701.music.126.net/20250111191051/d289d243635e20a37a2409fbeab58ead/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/28481688216/9d3d/df92/9a92/2bfc43fa8cd39d2a004c47674d12f1c2.mp3?vuutv=euba/A8DYmI9gBTLx5rC/78OwmWY8Vcc56majchc88pEyvG3y7DoLCNzLLWNbLB2C51Q7eF1vwj6Pra9Yblbme/u50L4S4evz45xWC0YVbOYWxxMaj3eRBGaY7X+RM1htoFPXy4CTXQYeHhsQ4ULInDkrtNGa/bUhslpdyiKTq6gwimz2sywesAE1kGh7yRI5BS4+CZQ11Mtjx5nlnwbPFQCjqwAZNaL7XcePmNKnlS4Kje4R+4FhXI9WwZ4NzfWLBIjQoYh6HiFzHsiSocsu3tE4yQ3uCzZLhtzd9inRKZQ1QxjWS0+tOtdib7FtuYRjZ/SrBP3Lv507yEmFY+fd+JfpB01Q4QC8qnNOo5PytYGYnwI+Nagc4/1rMAqqNL3',
-      cover:
+      url: 'http://m801.music.126.net/20250112200519/2c6fd9bce366efaffc6624cb81cfdaf9/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28481688644/150b/0334/2a60/690e587d898006bffc147c57f6fcf47f.m4a?vuutv=vmdjFkCqtw1JvtkBR8umYP38pREbzSl6u2JVK6uIwz2lW1Gq8JrNZGRVuEDQ66VmW8zeyfsypcySGJiZEYbJ80EjJ+oT3R1/jsONr3G7OnvPi4PFfTMps0MdADKJ7dsrb7EHxtLITKbMA/zgGN5vyYGFRGdmDx4jEXrwnAR05OWwYRmrBKLH1mrdkfZVDcth7UHd9hnb5WaR93CCiZFh/gQ5v2DVHuZ4WLnID58WUcJl1R4Je9LWaiPB57BUXfiXBVblrS320c7Lsf1qG9iL/MSQMM7cC0lv2Kvk90ituJW5Fq5KwyyUDi61sV0KlA0/ZPQiwOmYz2EHJzPgCkT+DTV3zDqonIjGNH1NtwqNT4OJyHfB5E7VZ0PFVtMjeww1:
         'https://p3.music.126.net/ixIs5kkukgNYMmeDsc35_g==/29686813955450.jpg?param=300y300'
-    },
-     {
-      name: '遇见(Live)',
-      artist: '孙燕姿',
-      url: 'http://m701.music.126.net/20250111184738/aafec6e2d6900cdb0dc0ddabaa865d17/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14096548668/3c57/5806/d5bc/85cef6be8791125e367b438266e2a855.mp3?vuutv=c9lHG9qCc0OUPpfCN/j5iF6fFUcjyK+A8ZzWNstQzuodmhLduNqCYoBv7Fm0DTpWpuCqtbRNVXSdRYkEdUqmoArD4GkbzMJtN+Q2opF62w7CmahIfftI4rG2QVV0vjw6655Go7gjEdvns8DxL1kd7XBkEYEUEBfiDFuZJkMOugtv84O56Yl2VjBqNwyeuNt4adNHQSv69RCRtzqDMsIY6whDQA00/iLdyH6tY3JUKEg3Ch98sguVAQNBaFVycAsfUAnb1xJ9B1rp41AClEIIjTjT3lApya/hq8dtjpTh53jZZkO+LxvXF/hZze+dTMySZV0odHrUK0gG7Mdr5xMCRC2edbLu2EqiwzmNLFAxNonWiIFoXEpeMEg2+IHjqhuL',
-      cover:
-        'https://p3.music.126.net/sF67FVEvm-TpP_-TA9I5vA==/3298534890576644.jpg?param=300y300'
     },
      {
       name: '叹云兮',
       artist: '鞠婧祎',
-      url: 'http://m10.music.126.net/20250111184438/53064571fae54be054fe785cf3017c15/ymusic/d9eb/6b12/7720/7892aec1dd9ab8b822e2d9a2087bec64.mp3?vuutv=o6xJg/nxKRQrxwfp9RXt262Mqbk3VcqzP9E09LqV8eBQPvUasUXiuKCwwpPQ3szpJh4qWZn9kTRHC/8pylX5985ByMvCABb+7Bg77LAfcix/kZgdG4iCawpkxz9u7boiW1JtwK0VHocG3ohrSB2inrcsHA9DHCas/9A8UQ9od0/cPkHdeWiX22aj2U3PVujqo8rXov/ujsDXNxyUyuLHX35zjLnWpxyLxcMCmy8zs2xdr8Mwlx9cXkFGHowY9s9cHqkkg8r+bCaOOZKyPEhXnO0Da2Lez4DxYjuFpZ7MpUPVHg6ooVniKxGVD0uyungEJqXgpfP1TDlr+N37OrsnsgibqBw91jEWC+oSA87WtOxPABSQxgUFwsVJvfld4KD8',
-      cover:
+      url: 'http://m701.music.126.net/20250112200611/030dcfb41a7dde4cf7c1a6fe8a6897dc/jdyyaac/5359/0452/035a/d3b39acf0638e25fab6040d118f3ca41.m4a?vuutv=bDwtuA/+VO5TNVssbfKQOphsPINFG4mVJlEUyK5y0+X23y3awHgYh5i3crMcOrTJb5QnCQagn46BWl2wc1pTgjvQamiR22HA3HPB+mYOAeb7Qo+66zTUPA/CNH8XZ4DV1uDDcpITkvjyMIxNnIg9IXFn0m1lLLBFOZsLLdsieHPqMgIyqbtaHjC3acI6gL85JqTzIu1Aje3/I/jbvYTpLA40+RQabL4aiAvgQ5XGgJrLL8oW13jrKe4N9Bx+QJ0D2FndRDfnpgo18G0ECe4PRjUWwUXj62KnG7v3Phywy11epAUbdaEgRxTA8YjlQ/9AoHZQojVhwK+qqMjC2M7VAzDeDXGETRwCTRXVjvpIlHZezul7ME/GZibgpkXcVyWH:
         'https://p3.music.126.net/80ycl8oJz6UBRsGl7MNRUg==/109951170318437851.jpg?param=300y300'
     },
      {
-      name: '云还在唱歌',
+     name: '万物不如你',
       artist: '张杰',
-      url: 'http://m701.music.126.net/20250111184028/667056fd8bce892a24b5bfc8bbe3ddaf/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/14047864335/fb6e/6d5c/eba0/2e6299de11158c892a6183bb149d2d67.mp3?vuutv=s4Odg7TpMjOBGw3ti/+wWL06vnHJPQsPDOa5HwHUDL+rmlm3Ihi0xMg8yxYrVYb2YjcInLgEnxHUsia81E0jB/KQ7FUw1ZMHXRbDLfbB+VGYPfbre3cProhWUCof9/8DUrKsO4VtXZ3tqB3/tqPtKrOlE5RfA0nv7W8RGVX6Rc+dwat8H+Sm+cYfGSn5j85mI+h/1rnEAxV47ZnXBBpx+Q2ryfA79nxT8ZTF7l2p/TjBc73+EzX+t+SnBIbqn/xoMyJeGszmAM47S7otQR43Rp0I05DfD3bBFXL6orATeBDVIreqWCEFVDpqH0wcVXRYt0jB/NRxKtBHpm0jyFHZGh8/BW8k8G1sKpl5YSSHfDRgBeCxrrzgcb+LHfqYrNEE',
-      cover:
-        'https://p3.music.126.net/CtZG5qxH9LPgGV_PThqSBg==/109951167322582296.jpg?param=300y300'
+      url: 'http://m801.music.126.net/20250112195902/5afa8d80f4aac2e495f5d088dd81c038/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/30041514806/64bb/a0ca/8ca9/a4050e363d359349148911a807119049.m4a?vuutv=ZAdK2mQgctmXhT0maOt/ek6tID1EdFLSQxV9x1M0+vBiNHsH390ucimVFbMITLFuoyu5bhFzrN9+3flWbnhrdfTEjrhoaijvhDlgb9TEwLjt2BFwV8BPZ+wGmkMML0eulclqtfaUvFNHgKLN47z5Veg+JonoK7/GWgZ3vEkr+z64mXfie+2PYmqcqrOZ6OJbFkp9DAtiMirz66cchhMRoe+DjwMurlelxlVSX1W1/MFkJ0nvnY3iXpT0Mn52wpFrbPa5AaVvFOZhaikjog8MtYYG1mtNFe+rVaMot/BAjljNixU/A3rImndckhaBGhtsVqAHnmzwJQFv/xDUMVnr8JJavrV7iPIatojfAa4LIpgwydj8AiyEFzzd25eF3HbA:
+        'https://p3.music.126.net/7C9M22jEr3W7VDQxTsjW7Q==/109951168469139967.jpg?param=300y300'
+    },
+     {
+     name: '看月亮爬上来',
+      artist: '张杰',
+      url: 'http://m801.music.126.net/20250112200021/afc076d8749bd2edb7b2e14565d3ab00/jdyyaac/obj/w5rDlsOJwrLDjj7CmsOj/28481791708/3861/e1ad/624c/f0549e4db0b42854be8e63b04056ced5.m4a?vuutv=iIToiC4UbbWxdpCPbqVwUfTfTYK0TPawZjO4rWhJowOPd/tcva8T1D07Qp1lAYSHE0pkoy+9qIuoP6CUvbgTdYbxacSg42SUqGvaAQkP74lhBzGP4Re5eeE4h5I01hfpWUj99LCxMgXtXB7ih4jFnRtYpdazMzp1LpbH8ZM/PJmTYEp3utVdj7n+fsDZBPRwRs7N3V/AyWZAOME1H13aP1uEx1FaZDP20OzKYecKKhloqM/ETVB13DRSLzpEWkSSCCUntrssq2nXfRJdch2jAFdTqnYVyCLutFUUKDchlfOgX7JBQd4bdOwwxaV3rtgZRArwzPwRODOuYjrmEMzsqNFs5Z8qh3EhLS7rc7aZ7iCMd8xUwJinVstMS44csNky:
+        'https://p3.music.126.net/B8DGifXOR2rWhYy292hhQg==/109951168894618221.jpg?param=300y300'
     },
   ],
   MUSIC_PLAYER_METING: process.env.NEXT_PUBLIC_MUSIC_PLAYER_METING || false, // 是否要开启 MetingJS，从平台获取歌单。会覆盖自定义的 MUSIC_PLAYER_AUDIO_LIST，更多配置信息：https://github.com/metowolf/MetingJS
