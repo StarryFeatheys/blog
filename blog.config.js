@@ -350,7 +350,7 @@ const BLOG = {
     {
       name: '叹云兮',
       artist: '鞠婧祎',
-      url: 'https://m801.music.126.net/20250112205710/af5c2a0532591ab0034394ffa6269426/jdyyaac/0158/545c/0553/62b1e6744ac64b9505b829c0d3fa691e.m4a?vuutv=WTfSjq6GNR7SkRLWdqV08dwraUEGWNKyXXBmPVtxeKs+1uu2NO2W4dHCn2aHrV5g79dMvJCCcEvSMb2I3cu92MU9Mp97DkxRZgCm/oNBXyDyAt6EWwoCm3wMdF9bOMWdx9CEBJ3RvdElxyUV1ANsyOcN5epdoOjqdhNsSBThP/kbyu6EXB0YX0LJI01wllS21fKumcr58NbMrJEKB54xhdhVjRqYCr6y11zrsTdn8zvrTc7tQLKwR/3YH8SbxDS9quXiwLeIQ0VUQrMwdsiNz6AM/XAsKm4eZzxzkbp+GgAeS63qN1fwNwsR0RNmHTsWXILIxwjNq19QdZx4UXrOD4LDhnseO3iy81WzAP02E15DMfI9nDyy/57WxU54zifY',
+      url: 'https://y.music.163.com/m/song?id=1325711746',
       cover: 'https://p3.music.126.net/80ycl8oJz6UBRsGl7MNRUg==/109951170318437851.jpg?param=300y300'
     },
     {
